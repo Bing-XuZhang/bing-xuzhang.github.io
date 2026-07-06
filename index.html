@@ -540,21 +540,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					const banner = document.getElementById("top-banner");
 
 					const images = [
-						"images/top/1.jpg",
-						"images/top/2.jpg",
-						"images/top/3.jpg",
-						"images/top/4.jpg"
+						"images/avatar.jpg",
+						"images/banner.jpg",
+						"images/chiikawa.jpg",
+						"images/niceable.jpg"
 					];
 
 					let index = 0;
-					const interval = 3000; // 每 3000 毫秒切换一次，即 3 秒
-					const fadeDuration = 400; // 淡入淡出时间，需与 CSS 中的 0.4s 对应
+					const interval = 3000;
+					const fadeDuration = 400;
 
 					if (!banner || images.length === 0) {
 						return;
 					}
 
-					// 预加载图片，减少切换时的闪烁
 					images.forEach(function (src) {
 						const img = new Image();
 						img.src = src;
