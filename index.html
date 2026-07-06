@@ -6,6 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+		<style>
+			#top-banner {
+				transition: opacity 0.4s ease-in-out;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -55,7 +60,7 @@
 								<div class="image main" data-position="center">
 									<!-- <img src="images/banner.jpg" alt="" /> -->
 									 <!-- <img src="images/chiikawa.jpg" alt="" style="width:100%; height:auto;" /> -->
-									 <img src="images/chiikawa.jpg" alt="" />
+									 <img id="top-banner" src="images/top/1.jpg" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
@@ -529,6 +534,43 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+					const banner = document.getElementById("top-banner");
+
+					const images = [
+						"images/top/1.jpg",
+						"images/top/2.jpg",
+						"images/top/3.jpg",
+						"images/top/4.jpg"
+					];
+
+					let index = 0;
+					const interval = 3000; // 每 3000 毫秒切换一次，即 3 秒
+					const fadeDuration = 400; // 淡入淡出时间，需与 CSS 中的 0.4s 对应
+
+					if (!banner || images.length === 0) {
+						return;
+					}
+
+					// 预加载图片，减少切换时的闪烁
+					images.forEach(function (src) {
+						const img = new Image();
+						img.src = src;
+					});
+
+					setInterval(function () {
+						banner.style.opacity = 0;
+
+						setTimeout(function () {
+							index = (index + 1) % images.length;
+							banner.src = images[index];
+							banner.style.opacity = 1;
+						}, fadeDuration);
+					}, interval);
+				});
+			</script>
 
 	</body>
 </html>
