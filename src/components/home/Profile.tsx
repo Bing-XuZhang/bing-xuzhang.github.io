@@ -95,7 +95,7 @@ export default function Profile({ author, social, features, researchInterests }:
         const script = document.createElement('script');
         script.type = 'text/javascript';
         script.id = 'mapmyvisitors';
-        script.src = 'https://mapmyvisitors.com/map.js?cl=a9adb0&w=260&t=n&d=OjA-1sglU01t45aN3NekkhYTxzMSOJgueUCN-Ao4KzM&co=ffffff&cmo=ff7f0e&cmn=2ca02c&ct=000000';
+        script.src = 'https://mapmyvisitors.com/map.js?cl=a9adb0&w=260&t=n&d=pqVLxWDO-OFi1n5gTte4Fbj2RGRLjEpBQW3H6jvSgag&co=ffffff&cmo=ff7f0e&cmn=2ca02c&ct=000000';
         container.appendChild(script);
 
         return () => {
@@ -208,7 +208,7 @@ export default function Profile({ author, social, features, researchInterests }:
                     alt={displayName}
                     width={230}
                     height={230}
-                    className="w-full h-full object-cover object-[32%_center]"
+                    className="w-full h-full object-cover object-[center_top]"
                     priority
                 />
             </div>
