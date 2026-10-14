@@ -1,0 +1,65 @@
+[site]
+title = "Bing-Xu Zhang"
+description = "Undergraduate student majoring in Automation at Donghua University."
+favicon = "/GlowingStar.svg"
+last_updated = "auto"
+
+[author]
+name_en = "Bing-Xu Zhang"
+name_cn = "张丙戌"
+title = """Undergraduate Student
+in Automation"""
+institution = "Donghua University"
+avatar = "/avatar.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "bingxuzhang@mail.dhu.edu.cn"
+location = "Shanghai, China"
+google_scholar = "https://scholar.google.com/citations?hl=zh-CN&user=5VqeNC4AAAAJ"
+orcid = "https://orcid.org/0009-0008-7571-8515"
+github = "https://github.com/Bing-XuZhang"
+
+[features]
+# Show a like button on the about page
+enable_likes = false
+
+# Display all subpages on a single page
+enable_one_page_mode = true
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "News"
+type = "page"
+target = "news"
+href = "/news"
+
+[[navigation]]
+title = "Experiences"
+type = "page"
+target = "experiences"
+href = "/experiences"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "projects"
+href = "/projects"

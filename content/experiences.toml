@@ -1,0 +1,17 @@
+type = "sectioned"
+title = "Experiences"
+
+[[sections]]
+id = "education_heading"
+type = "text"
+content = "<h3 class=\"text-xl font-serif font-bold text-primary\">Education</h3>"
+
+[[sections]]
+id = "education"
+type = "card"
+
+  [[sections.items]]
+  title = "Undergraduate Student in Automation"
+  subtitle = "School of Information and Intelligent Science, Donghua University"
+  date = "2023/09 - Present"
+  content = "**Advisor:** [Prof. Kang-Di Lu](https://scholar.google.com/citations?hl=zh-CN&user=zuTT0L0AAAAJ)"

@@ -1,0 +1,14 @@
+type = "list"
+title = "News"
+
+[[items]]
+date = "2026-07"
+content = "The team I led won the **National First Prize** in the 2026 [CRAIC](https://www.caairobot.com/) competition!"
+
+[[items]]
+date = "2026-06"
+content = "Our paper entitled *MoADL-TLSTM: Multiobjective Automated Deep Learning-Based Transformer-LSTM for Load Forecasting* has been accepted by *IEEE Transactions on Neural Networks and Learning Systems*!"
+
+[[items]]
+date = "2026-04"
+content = "My homepage is first constructed!"

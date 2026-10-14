@@ -1,0 +1,20 @@
+type = "about"
+title = "About"
+
+[profile]
+key_words = [
+  "Evolutionary computation",
+  "Genetic algorithms",
+  "Automated deep learning",
+  "Time series forecasting",
+  "Intrusion detection",
+  "Neural architecture search",
+  "Hyperparameter optimization",
+  "Cyber-physical power systems"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"
