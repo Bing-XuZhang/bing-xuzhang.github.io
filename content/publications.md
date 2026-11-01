@@ -1,4 +1,4 @@
-*Current academic achievements:* A total of **2** papers have been published, among which **2** papers were published as the (co-)first author, (co-)corresponding author, or second author in SCI/EI journals. The work has been cited **24** times on Google Scholar, with an h-index of **1**.
+*Current academic achievements:* A total of **2** papers have been published, among which **2** papers were published as the (co-)first author, (co-)corresponding author, or second author in SCI/EI journals. The work has been cited **30** times on Google Scholar, with an h-index of **1**.
 
 ### Journal papers
 
