@@ -2,17 +2,17 @@ type = "list"
 title = "News"
 
 [[items]]
-date = "2026-11"
+date = "2026-11-17"
 content = "I have been admitted to the **Doctor of Philosophy (PhD) in Electrical and Computer Engineering** programme at the [Faculty of Engineering, University of Macau](https://feg.um.edu.mo/ece/phd-programme)!"
 
 [[items]]
-date = "2026-07"
+date = "2026-07-27"
 content = "The team I led won the **National First Prize** in the 2026 [CRAIC](https://www.caairobot.com/) competition!"
 
 [[items]]
-date = "2026-06"
+date = "2026-06-01"
 content = "Our paper entitled *MoADL-TLSTM: Multiobjective Automated Deep Learning-Based Transformer-LSTM for Load Forecasting* has been accepted by *IEEE Transactions on Neural Networks and Learning Systems*!"
 
 [[items]]
-date = "2026-04"
+date = "2026-04-19"
 content = "My homepage is first constructed!"
