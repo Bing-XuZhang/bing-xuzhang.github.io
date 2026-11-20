@@ -59,13 +59,7 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "Services"
+title = "Research"
 type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "Projects"
-type = "page"
-target = "projects"
-href = "/projects"
+target = "research"
+href = "/research"
