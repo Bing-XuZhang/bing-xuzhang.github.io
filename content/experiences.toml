@@ -11,6 +11,12 @@ id = "education"
 type = "card"
 
   [[sections.items]]
+  title = "Ph.D. in Electrical and Computer Engineering"
+  subtitle = "Department of Electrical and Computer Engineering, Faculty of Engineering, University of Macau"
+  date = "2026/08 - Present"
+  content = "**Advisor:** Prof. Hongxun Hui"
+
+  [[sections.items]]
   title = "Undergraduate Student in Automation"
   subtitle = "School of Information and Intelligent Science, Donghua University"
   date = "2023/09 - Present"
