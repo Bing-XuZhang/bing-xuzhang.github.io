@@ -13,8 +13,9 @@ type = "card"
   [[sections.items]]
   title = "Ph.D. in Electrical and Computer Engineering"
   subtitle = "Department of Electrical and Computer Engineering, Faculty of Engineering, University of Macau"
-  date = "2026/08 - Present"
+  date = "2027/08 -"
   content = "**Advisor:** [Prof. Hongxun Hui](https://huihongxun.github.io/professional/)"
+  image = "/UMacau.png"
 
   [[sections.items]]
   title = "Undergraduate Student in Automation"
