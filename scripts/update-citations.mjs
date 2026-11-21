@@ -42,7 +42,9 @@ async function citationsFromSerpApi(key) {
     `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_USER}&hl=en&api_key=${key}`
   );
   const data = JSON.parse(json);
-  const n = data?.author_profile?.table_citation?.citations?.[0]?.citations;
+  const table = data?.cited_by?.table;
+  const n = table?.[0]?.citations?.all
+    ?? data?.author_profile?.table_citation?.citations?.[0]?.citations; // older shape fallback
   if (!n) throw new Error('citations field not found in SerpAPI response');
   return String(n).replace(/,/g, '');
 }
